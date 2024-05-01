@@ -22,12 +22,11 @@ offers a variety of features for both customers and staff members.
 (Outer Clove Website -> index.php)
 
 ### For Admin & Staff
-- Access the admin/staff website by logging in with provided credentials found in `Login Info.txt` (Outer Clove Website -> Login Info.txt).
+- Access the admin/staff website by logging in with provided credentials found in `Login Info.txt`.
 - Utilize the dashboard to manage reservations, orders, and menu items efficiently.
   
 ## Installation
 - Clone this repository to your local machine.
 - Host the website files on a web server (preferably XAMMP) to make it accessible.
-- Set up the database using outerclove_db.sql located in Outer Clove Website -> outerclove_db.sql in phpMyAdmin
-- with correct connection credentials as specified in Login Info.txt.
+- Set up the database using outerclove_db.sql with correct connection credentials as specified in Login Info.txt.
 
