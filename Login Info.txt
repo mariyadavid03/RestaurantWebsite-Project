@@ -1,0 +1,18 @@
+Database Info
+name - outerclove_db
+username - outerclove
+password - 1234
+
+Customer Login
+username - Customer
+password - customer123
+
+Admin Login
+username - Admin
+password - admin123
+
+Staff Login
+usernsmr - Staff 
+password - staff123
+
+
