@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../images/menu-bg.png');
+    background-size: cover;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu-container {
+    
+    max-width: 1200px;
+    margin: 100px auto 20px;
+}
+
+.menu-category {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin-top: 100px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.item-details {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #004225;
+}
+
+.item-price {
+    font-size: 16px;
+    color: #004225;
+}
+
+.menu-properties {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #555;
+    text-align: center;
+}
+
+.property {
+    margin-right: 10px;
+}
+
+
+.filter-form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.filterHeading {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.cuisineFilter,
+.dietaryFilter,
+.serviceFilter {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.filterButton {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 550px) {
+    footer {
+        display: none;
+    }
+    .menu-items {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    body {
+        font-size: 12px;
+        overflow-x:visible;
+    }
+    header {
+        width: 100%;
+    }
+    main {
+        margin: 0;
+        width: 150%;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+
+}

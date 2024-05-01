@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url('../images/checkout-bg.jpeg');
+    background-size: cover;
+}
+
+header {
+    z-index: 100;
+    width: 100%;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.total-container label {
+    color: rgb(22, 95, 18);
+    font-size: 18px;
+}
+
+.checkout-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.checkout-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.checkout-form select,
+.checkout-form input,
+.checkout-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkout-form select{
+    width: 94%;
+}
+.checkout-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 34%;
+    margin-right: 34%;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-form button:hover {
+    background-color: #39813c;
+    transition: background-color 0.3s ease;
+}
+
+/*Responsive Styles*/
+
+@media only screen and (max-width: 550px) {
+    body {
+        font-size: 12px;
+        overflow-x:visible;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    main {
+
+        margin: 0;
+        width: 180%;
+        box-sizing: border-box;
+    }
+
+    .checkout-container {
+        margin-top: 65%;
+        margin-bottom: 65%;
+    }
+    .checkout-form {
+        margin-top: 0px;
+    }
+}
