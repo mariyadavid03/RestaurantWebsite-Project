@@ -28,6 +28,6 @@ offers a variety of features for both customers and staff members.
 ## Installation
 - Clone this repository to your local machine.
 - Host the website files on a web server (preferably XAMMP) to make it accessible.
-- Set up the database using outerclove_db.sql located in Outer Clove Website -> db -> outerclove_db.sql in phpMyAdmin
+- Set up the database using outerclove_db.sql located in Outer Clove Website -> outerclove_db.sql in phpMyAdmin
 - with correct connection credentials as specified in Login Info.txt.
 
